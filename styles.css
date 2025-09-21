@@ -1,3 +1,6 @@
+/*
+ * This is the style for the header 
+*/
 .header {
 	position: sticky;
 	position: -webkit-sticky;
@@ -5,6 +8,7 @@
 	text-align: center;
 	padding-top: 2rem;
 	background: #000;
+	font-size: 1.75rem;
 }
 
 .button {
@@ -21,9 +25,65 @@
 	text-decoration: underline;
 }
 
+/*
+ * This is the style for the links subpage.
+*/
+.profile {
+	margin-bottom: 3rem;
+}
+
+.profile-picture {
+	display: block;
+	margin: auto;
+	width: 25rem;
+	height: 25rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	border-radius: 50%;
+	border: 0.5rem double white;
+}
+
+.profile-name {
+	font-size: 1.9rem;
+}
+
+.profile-description {
+	font-size: 1.5rem;
+}
+
+.logo {
+	width: 4rem;
+	height: 4rem;
+	margin-left: 1rem;
+	margin-top: 1rem;
+	margin-right: 0.5rem;
+	margin-bottom: 0.5rem;
+	display: inline-block;
+}
+
+.link {
+	color: #000;
+}
+
+.area {
+	display: block;
+	margin: auto;
+	border: 0.25rem double white;
+	width: 20%;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+	border-radius: 0.125rem;
+	text-align: center;
+}
+
+.test {
+	display: inline-block;
+}
+
 .content {
 	text-align: center;
 	padding-top: 2rem;
+	font-size: 1.5rem;
 }
 
 .project {
@@ -33,11 +93,12 @@
 	margin-bottom: 2rem;
 }
 
-.footer {
-	text-align: center;
-}
-
 body {
 	background: #000;
 	color: #fff;
 }
+
+.footer {
+	text-align: center;
+}
+
