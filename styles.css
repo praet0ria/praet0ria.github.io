@@ -3,134 +3,140 @@
 	src: url("pixel_game.ttf")
 }
 
-
-/*
- * This is the style for the header 
-*/
-.header {
-	position: sticky;
-	position: -webkit-sticky;
-  top: 0;
-	text-align: center;
-	padding-top: 2rem;
-	background: #000;
-	font-size: 2rem;
+@media screen and (max-width: 600px) {
+  .introduction {
+		text-align: center;
+		color: #fff;
+		margin-top: 5rem;
+		font-size: 0.75rem;
+	}
 }
 
-.button {
-	display: inline-block;
-	margin-left: 2rem;
-	margin-right: 2rem;
-	border: none;
-	color: #fff;
-	background: #000;
-	text-decoration: none;
+@media only screen and (min-width: 800px) {
+	.header {
+		position: sticky;
+		position: -webkit-sticky;
+		top: 0;
+		text-align: center;
+		padding-top: 2rem;
+		background: #000;
+		font-size: 2rem;
+	}
+
+	.button {
+		display: inline-block;
+		margin-left: 2rem;
+		margin-right: 2rem;
+		border: none;
+		color: #fff;
+		background: #000;
+		text-decoration: none;
+	}
+
+	.button:hover {
+		text-decoration: underline;
+	}
+
+	/*
+	* This is the style for the links subpage.
+	*/
+	.profile {
+		margin-bottom: 3rem;
+	}
+
+	.profile-picture {
+		display: block;
+		margin: auto;
+		width: 25rem;
+		height: 25rem;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		border-radius: 50%;
+		border: 0.5rem double white;
+	}
+
+	.profile-name {
+		font-size: 1.9rem;
+	}
+
+	.profile-description {
+		font-size: 1.5rem;
+	}
+
+	.logo {
+		width: 4rem;
+		height: 4rem;
+		margin-left: 1rem;
+		margin-top: 1rem;
+		margin-right: 0.5rem;
+		margin-bottom: 0.5rem;
+		display: inline-block;
+	}
+
+	.link {
+		color: #000;
+	}
+
+	.area {
+		display: block;
+		margin: auto;
+		border: 0.25rem double white;
+		width: 20%;
+		margin-bottom: 2rem;
+		margin-top: 2rem;
+		border-radius: 0.125rem;
+		text-align: center;
+	}
+
+	.test {
+		display: inline-block;
+	}
+
+	.content {
+		text-align: center;
+		padding-top: 2rem;
+		font-size: 1.5rem;
+	}
+
+	.project {
+		width: 20%;
+		margin: auto;
+		border: 2px solid white;
+		margin-bottom: 2rem;
+	}
+
+	body {
+		font-family: "BoldPixels";
+		font-size: 2rem;
+		background: #000;
+		color: #fff;
+	}
+
+
+	.title {
+		margin-top: 2rem;
+		margin-bottom: 5rem;
+		font-family: "BoldPixels";
+	}
+
+	.divider {
+		width: 65%;
+		color: white
+	}
+
+	.introduction {
+		text-align: left;
+		width: 50%;
+		margin: auto;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		font-size: 2rem;
+	}
+
+	.footer {
+		text-align: center;
+		color: #fff;
+		margin-top: 5rem;
+		font-size: 1.5rem;
+	}
 }
-
-.button:hover {
-	text-decoration: underline;
-}
-
-/*
- * This is the style for the links subpage.
-*/
-.profile {
-	margin-bottom: 3rem;
-}
-
-.profile-picture {
-	display: block;
-	margin: auto;
-	width: 25rem;
-	height: 25rem;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-	border-radius: 50%;
-	border: 0.5rem double white;
-}
-
-.profile-name {
-	font-size: 1.9rem;
-}
-
-.profile-description {
-	font-size: 1.5rem;
-}
-
-.logo {
-	width: 4rem;
-	height: 4rem;
-	margin-left: 1rem;
-	margin-top: 1rem;
-	margin-right: 0.5rem;
-	margin-bottom: 0.5rem;
-	display: inline-block;
-}
-
-.link {
-	color: #000;
-}
-
-.area {
-	display: block;
-	margin: auto;
-	border: 0.25rem double white;
-	width: 20%;
-	margin-bottom: 2rem;
-	margin-top: 2rem;
-	border-radius: 0.125rem;
-	text-align: center;
-}
-
-.test {
-	display: inline-block;
-}
-
-.content {
-	text-align: center;
-	padding-top: 2rem;
-	font-size: 1.5rem;
-}
-
-.project {
-	width: 20%;
-	margin: auto;
-	border: 2px solid white;
-	margin-bottom: 2rem;
-}
-
-body {
-	font-family: "BoldPixels";
-	font-size: 2rem;
-	background: #000;
-	color: #fff;
-}
-
-
-.title {
-	margin-top: 2rem;
-	margin-bottom: 5rem;
-	font-family: "BoldPixels";
-}
-
-.divider {
-	width: 65%;
-	color: white
-}
-
-.introduction {
-	text-align: left;
-	width: 50%;
-	margin: auto;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-	font-size: 2rem;
-}
-
-.footer {
-	text-align: center;
-	color: #fff;
-	margin-top: 5rem;
-	font-size: 1.5rem;
-}
-
